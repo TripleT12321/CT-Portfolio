@@ -1,3 +1,22 @@
 body {
     background-color: red
 }
+
+.item {
+    width: 150px;
+    height: 200px;
+    background-color: white
+}
+
+.container {
+    display: flex;
+    justify-content: left;
+    font-size: 15px;
+}
+
+.page-layout {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 33px;
+}
