@@ -5,7 +5,7 @@ body {
 nav {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .item {
@@ -16,12 +16,41 @@ nav {
 
 .container {
     display: flex;
-    justify-content: left;
+    justify-content: center;
     font-size: 15px;
 }
 
 .page-layout {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+
+}
+
+.sidebar {
+    height: 100%;
+    width: 200px;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 20px;
+}
+
+.content {
+    margin-left: 200px;
+    padding: 20px;
+}
+
+.sidebar a {
+    display: block;
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+}
+
+
+.links {
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
 }
