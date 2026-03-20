@@ -4,6 +4,7 @@ body {
 
 nav {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
@@ -23,12 +24,16 @@ nav {
 .page-layout {
     display: flex;
     flex-direction: column;
+    font-family: 'bebas neue', sans-serif;
+}
 
+header {
+    position: relative;
 }
 
 .sidebar {
     height: 100%;
-    width: 200px;
+    width: 300px;
     background-color: white;
     position: fixed;
     top: 0;
@@ -36,21 +41,41 @@ nav {
     padding-top: 20px;
 }
 
+.sidebar h2 {
+    text-align: center;
+}
+
 .content {
-    margin-left: 200px;
+    margin-left: 300px;
     padding: 20px;
+}
+
+.sidebar p {
+    padding: 10px;
+    text-align: center;
 }
 
 .sidebar a {
     display: block;
-    color: white;
+    color: black;
     padding: 15px;
     text-decoration: none;
 }
 
+.sidebar a:hover {
+    color: white;
+    background-color: #333;
+}
 
 .links {
+    position: absolute;
+    top: 0;
+    right: 0;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     font-size: 16px;
+}
+
+.links a {
+    margin-right: 0;
 }
