@@ -74,8 +74,8 @@ header {
 }
 
 body {
-    background-image: url('C:/Users/willi/OneDrive/Desktop/Documents/CT-Projects/Common Task/CT-Portfolio/triplet.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    background-color: red;
 }
