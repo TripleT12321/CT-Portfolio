@@ -1,0 +1,18 @@
+.header {
+    text-align: center;
+    padding: 20px;
+}
+
+.top-left-fixed {
+    position: fixed;
+    /* Positions relative to the viewport */
+    top: 0;
+    /* Aligns to the top edge */
+    left: 0;
+    /* Aligns to the left edge */
+    margin: 10px;
+    /* Optional: Add some space from the edges */
+    /* Optional styling */
+    padding: 5px;
+    text-decoration: none;
+}
