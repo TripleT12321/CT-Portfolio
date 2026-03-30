@@ -1,6 +1,7 @@
 .header {
     text-align: center;
     padding: 20px;
+    color: red;
 }
 
 .top-left-fixed {
@@ -15,6 +16,9 @@
     /* Optional styling */
     padding: 5px;
     text-decoration: none;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
 }
 
 .container-b {
@@ -24,8 +28,9 @@
     justify-content: flex-start;
     align-items: center;
     margin: 10px;
-
+    color: red;
     gap: 50px;
+
 }
 
 main {
@@ -64,6 +69,7 @@ main {
 
 .header {
     padding-bottom: 20px;
+
 }
 
 h1,
@@ -80,4 +86,29 @@ p {
     margin: 0;
     line-height: 1.5;
     text-align: center;
+}
+
+body {
+    background-image: url(4k-basketball-michael-jordan-6kdg85ia8zm4jpqc.jpg);
+    background-position: absolute;
+    color: white;
+    font-family: 'Bebas Neue', serif;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+header h1 {
+
+    font-size: 70px;
+
+}
+
+.item h3 {
+    font-size: 30px;
 }
